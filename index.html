@@ -203,6 +203,56 @@ Known for stepping in during critical moments to ensure successful execution- so
 
   </div>
 </div>
+
+  <script>
+function openProject(project) {
+  const modal = document.getElementById("modal");
+  const body = document.getElementById("modal-body");
+
+  let content = "";
+
+  if (project === "revops") {
+    content = `
+      <h2>Unified RevOps AI Platform</h2>
+      <p>Designed and built an AI-powered RevOps system that improves pipeline visibility, forecasting accuracy, and GTM decision-making.</p>
+      <ul>
+        <li>Integrated multi-source enterprise data</li>
+        <li>Built predictive pipeline intelligence</li>
+        <li>Improved sales efficiency and routing</li>
+      </ul>
+    `;
+  }
+
+  if (project === "mip") {
+    content = `
+      <h2>MIP & ISP Data Products</h2>
+      <p>Enterprise-grade data products providing market intelligence and customer insights across business units.</p>
+    `;
+  }
+
+  if (project === "demandbase") {
+    content = `
+      <h2>Demandbase Optimization</h2>
+      <p>Improved adoption and delivery by aligning stakeholders and optimizing data integration flows.</p>
+    `;
+  }
+
+  body.innerHTML = content;
+  modal.style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("modal").style.display = "none";
+}
+
+// click outside to close
+window.onclick = function(e) {
+  const modal = document.getElementById("modal");
+  if (e.target === modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
   
 </body>
 </html>
