@@ -126,6 +126,72 @@
       cursor: pointer;
       color: #fff;
     }
+
+    .career-section {
+  padding: 60px 20px;
+}
+
+.timeline {
+  position: relative;
+  margin-left: 20px;
+  border-left: 3px solid #38bdf8;
+  padding-left: 30px;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -41px;
+  top: 8px;
+  width: 14px;
+  height: 14px;
+  background: #38bdf8;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #38bdf8;
+}
+
+.timeline-content {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+  background: #273449;
+}
+
+.company {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.metrics {
+  margin: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.metrics span {
+  background: rgba(56, 189, 248, 0.1);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #38bdf8;
+}
+
+.desc {
+  color: #cbd5e1;
+  margin-top: 10px;
+}
+    
   </style>
 </head>
 
@@ -181,6 +247,79 @@ Known for stepping in during critical moments to ensure successful execution- so
 
     </div>
   </section>
+
+  <!-- CAREER -->
+
+  <section class="career-section">
+  <h2>Career Journey</h2>
+
+  <div class="timeline">
+
+    <!-- Equinix -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+        <h3>Senior Product Manager</h3>
+        <p class="company">Equinix | 2022 – Present</p>
+
+        <div class="metrics">
+          <span>🚀 RevOps AI Platform</span>
+          <span>📈 Pipeline Intelligence</span>
+          <span>⚡ GTM Optimization</span>
+        </div>
+
+        <p class="desc">
+          Leading AI-driven RevOps and data products that improve pipeline visibility,
+          forecasting accuracy, and enterprise decision-making.
+        </p>
+      </div>
+    </div>
+
+    <!-- IBM -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+        <h3>Product Manager</h3>
+        <p class="company">IBM | 2018 – 2022</p>
+
+        <div class="metrics">
+          <span>📊 Analytics Platforms</span>
+          <span>🧠 Data Products</span>
+          <span>🌍 Global Teams</span>
+        </div>
+
+        <p class="desc">
+          Built enterprise analytics solutions and dashboards enabling data-driven
+          decision making across business units.
+        </p>
+      </div>
+    </div>
+
+    <!-- EY -->
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+
+      <div class="timeline-content">
+        <h3>Business Analyst</h3>
+        <p class="company">EY | 2016 – 2018</p>
+
+        <div class="metrics">
+          <span>📑 Reporting Automation</span>
+          <span>📊 BI Dashboards</span>
+          <span>⚙️ Process Optimization</span>
+        </div>
+
+        <p class="desc">
+          Delivered business intelligence dashboards and improved operational efficiency
+          through data analysis and reporting systems.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
 
   <!-- CONTACT -->
   <section class="contact">
