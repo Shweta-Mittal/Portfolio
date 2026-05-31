@@ -230,9 +230,9 @@ Known for stepping in during critical moments to ensure successful execution- so
           <p>Brings a differentiated leadership perspective shaped by experience across digital infrastructure, enterprise technology, and market intelligence, with exposure to diverse industries including healthcare, FMCG, and electronics. Enables the ability to navigate complex business environments and balance strategic, operational, and customer priorities.</p>
         </div>
       
-        <div class="card" onclick="openProject('mip')">
-          <h3>MIP & ISP Data Products</h3>
-          <p>Enterprise analytics & customer intelligence</p>
+        <div class="card" onclick="openProject('publicsectorai')">
+          <h3>Public Sector AI Case Study</h3>
+          <p>AI-driven decision intelligence platform</p>
         </div>
       
         <div class="card" onclick="openProject('demandbase')">
@@ -374,12 +374,51 @@ function openProject(project) {
     `;
   }
 
-  if (project === "mip") {
-    content = `
-      <h2>MIP & ISP Data Products</h2>
-      <p>Enterprise-grade data products providing market intelligence and customer insights across business units.</p>
-    `;
-  }
+  if (project === "publicsectorai") {
+  content = `
+    <h2>Public Sector AI</h2>
+
+    <p><strong>AI-driven decision intelligence platform</strong> enabling US Federal sales teams to identify, prioritize, and act on high-value government opportunities.</p>
+
+    <h3>The Challenge</h3>
+    <p>Federal sales teams dealt with unstructured procurement data, long cycles, and fragmented intelligence.</p>
+
+    <p>Opportunity discovery was manual and inconsistent, leading to missed high-value deals.</p>
+
+    <h3>Strategic Opportunity</h3>
+    <p>Shift from manual discovery to an intelligence-driven GTM model.</p>
+
+    <h3>Leadership Mandate</h3>
+    <ul>
+      <li>Defined opportunity scoring framework</li>
+      <li>Built partner prioritization logic</li>
+      <li>Aligned product + engineering + GTM teams</li>
+      <li>Translated procurement signals into product direction</li>
+    </ul>
+
+    <h3>Solution Overview</h3>
+    <ul>
+      <li><strong>Intelligence Layer:</strong> NLP extraction from procurement data</li>
+      <li><strong>Decision Layer:</strong> Opportunity scoring system</li>
+      <li><strong>Experience Layer:</strong> Enterprise dashboard</li>
+      <li><strong>Feedback Loop:</strong> Continuous improvement system</li>
+    </ul>
+
+    <h3>Business Impact</h3>
+    <ul>
+      <li>Shifted teams from manual to structured prioritization</li>
+      <li>Improved visibility into federal opportunities</li>
+      <li>Earlier identification of high-value initiatives</li>
+    </ul>
+
+    <h3>Key Takeaways</h3>
+    <ul>
+      <li>AI must sit inside workflows, not outside them</li>
+      <li>Explainability drives enterprise adoption</li>
+      <li>Structured intelligence improves GTM precision</li>
+    </ul>
+  `;
+}
 
   if (project === "demandbase") {
     content = `
