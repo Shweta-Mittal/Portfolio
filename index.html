@@ -246,6 +246,10 @@ Known for stepping in during critical moments to ensure successful execution- so
           <h3>Digital Strategy Plan (DSP)</h3>
           <p>Account Intelligence Platform for Enterprise Sales & Marketing</p>
         </div>
+        <div class="card" onclick="openProject('netcool')">
+          <h3>Netcool & ITM Alert Optimization</h3>
+          <p>Infrastructure Intelligence & Cost Optimization</p>
+        </div>
       
       </div>
 
@@ -964,6 +968,154 @@ function openProject(project) {
 
     <p>
       By connecting customer intelligence, opportunity discovery, and strategic pursuit planning into a unified experience, the platform helped operationalize account-based selling at enterprise scale.
+    </p>
+  `;
+}
+
+  if (project === "netcool") {
+  content = `
+    <h1>📡 Netcool & ITM Alert Optimization</h1>
+    <h3>Infrastructure Intelligence & Cost Optimization Initiative</h3>
+
+    <hr/>
+
+    <h2>1. Context</h2>
+
+    <p>
+      Enterprise IT monitoring systems generate continuous streams of alerts to ensure infrastructure reliability and operational stability.
+      However, in large-scale environments, excessive alerts created operational noise and increased cost.
+    </p>
+
+    <p>
+      Within an IBM-managed banking infrastructure environment, alerting had evolved into a high-volume, low-efficiency model requiring optimization.
+    </p>
+
+    <h2>2. The Challenge</h2>
+
+    <p>Monitoring system scale:</p>
+
+    <ul>
+      <li>~400,000 alerts per month</li>
+      <li>Each alert sent to ~20 stakeholders</li>
+      <li>~USD 0.05 cost per notification</li>
+      <li>~SGD 5M estimated annual cost impact</li>
+    </ul>
+
+    <p>Operational issues included:</p>
+
+    <ul>
+      <li>High alert fatigue across teams</li>
+      <li>Low signal-to-noise ratio in incident response</li>
+      <li>Inefficient prioritization of incidents</li>
+      <li>Redundant monitoring workflows across teams</li>
+    </ul>
+
+    <h2>3. Strategic Objective</h2>
+
+    <ul>
+      <li>Reduce unnecessary alert noise</li>
+      <li>Improve signal quality and actionability</li>
+      <li>Optimize monitoring efficiency across teams</li>
+      <li>Reduce infrastructure monitoring cost</li>
+      <li>Enhance observability and governance</li>
+    </ul>
+
+    <h2>4. Approach & Methodology</h2>
+
+    <h3>📊 Historical Data Analysis</h3>
+    <ul>
+      <li>Analyzed 2 years of alert data</li>
+      <li>Structured unorganized log datasets</li>
+      <li>Categorized by geography, platform, severity, environment</li>
+      <li>Identified message patterns and keywords</li>
+    </ul>
+
+    <h3>⚙️ Data Automation & Monitoring</h3>
+    <ul>
+      <li>Built automated alert ingestion pipelines</li>
+      <li>Enabled daily/weekly/monthly trend tracking</li>
+      <li>Established baseline system behavior metrics</li>
+    </ul>
+
+    <h3>🔍 Alert Pattern Analysis</h3>
+
+    <p><strong>A. Alert Nature Optimization</strong></p>
+    <p>~80% of alerts were informational and non-actionable.</p>
+
+    <p><strong>B. Frequency Optimization</strong></p>
+    <p>Recommended reducing alerts from every 15 minutes → 1-hour intervals for non-critical events.</p>
+
+    <p><strong>C. Cross-Team Synergy Identification</strong></p>
+    <p>Detected overlapping monitoring logic across multiple teams.</p>
+
+    <p><strong>D. Redundancy Detection</strong></p>
+    <ul>
+      <li>Parent-child alert duplication</li>
+      <li>System vs manual duplicates</li>
+      <li>Cross-category alert duplication</li>
+      <li>Redundant escalation chains</li>
+    </ul>
+
+    <h3>🧠 External Scope Optimization</h3>
+    <ul>
+      <li>Identified non-owned system alerts</li>
+      <li>Removed low-value monitoring streams</li>
+      <li>Optimized cost through scope rationalization</li>
+    </ul>
+
+    <h2>5. Solution Implementation</h2>
+
+    <ul>
+      <li>Reduced alert frequency for informational events</li>
+      <li>Eliminated redundant monitoring rules</li>
+      <li>Consolidated overlapping alert streams</li>
+      <li>Removed non-actionable alert categories</li>
+      <li>Standardized alert classification logic</li>
+      <li>Improved governance of alert generation</li>
+      <li>Introduced continuous alert volume monitoring</li>
+    </ul>
+
+    <h2>6. Business Impact</h2>
+
+    <ul>
+      <li>Reduced alerts: 400,000 → 50,000 per month</li>
+      <li>~70% reduction in alert noise</li>
+      <li>~SGD 3.5M annual cost savings</li>
+      <li>Improved operational response efficiency</li>
+      <li>Reduced alert fatigue across teams</li>
+      <li>Strengthened monitoring governance</li>
+    </ul>
+
+    <h2>7. Leadership & Stakeholder Influence</h2>
+
+    <ul>
+      <li>Aligned multiple infrastructure and platform teams</li>
+      <li>Secured leadership approval for optimization strategy</li>
+      <li>Influenced operational alerting policies</li>
+      <li>Consolidated distributed monitoring ownership</li>
+      <li>Drove data-driven operational decision-making</li>
+    </ul>
+
+    <h2>8. Key Learnings</h2>
+
+    <ul>
+      <li>Operational systems hide inefficiencies at scale</li>
+      <li>Large value can be unlocked without new infrastructure</li>
+      <li>Pattern recognition drives high-impact optimization</li>
+      <li>Cross-team alignment is critical for success</li>
+      <li>Small configuration changes can create massive impact</li>
+    </ul>
+
+    <h2>9. Final Reflection</h2>
+
+    <p>
+      The Netcool Alert Optimization initiative demonstrated how data analytics can transform infrastructure monitoring
+      from a high-noise reactive system into a streamlined, cost-efficient operational intelligence layer.
+    </p>
+
+    <p>
+      By combining historical analysis, pattern detection, and cross-functional alignment,
+      the initiative delivered significant cost savings while improving operational clarity and system efficiency.
     </p>
   `;
 }
