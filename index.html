@@ -266,7 +266,12 @@ Known for stepping in during critical moments to ensure successful execution- so
     <div class="grid">
 
       <div class="grid">
-      
+
+        <div class="card" onclick="openProject('helix')">
+          <h3>Helix Data Migration</h3>
+          <p>Enterprise Data Platform Modernization & Cost Optimization</p>
+        </div>
+              
         <div class="card" onclick="openProject('publicsectorai')">
           <h3>Public Sector AI</h3>
           <p>AI-driven decision intelligence platform, improved GTM alignment & adoption</p>
@@ -476,6 +481,129 @@ function openProject(project) {
   const body = document.getElementById("modal-body");
 
   let content = "";
+
+  if (project === "helix") {
+  content = `
+    <h1>⚙️ Helix Data Migration</h1>
+    <h3>Enterprise Data Platform Modernization & Optimization</h3>
+
+    <div class="metrics">
+      <span>⚡ Cost Optimization</span>
+      <span>📊 Data Platform Migration</span>
+      <span>🔁 Zero Downtime Delivery</span>
+      <span>⚙️ Enterprise Modernization</span>
+    </div>
+
+    <p>
+      Led the migration of enterprise data assets from Exasol to Helix,
+      modernizing the foundational data architecture while ensuring
+      uninterrupted business operations and improved performance efficiency.
+    </p>
+
+    <hr/>
+
+    <h2>1. Context & Problem</h2>
+    <ul>
+      <li>Legacy Exasol platform facing scalability and performance constraints</li>
+      <li>High operational cost of maintaining fragmented data pipelines</li>
+      <li>Limited accessibility across business and analytics teams</li>
+      <li>Increasing technical debt across enterprise data systems</li>
+    </ul>
+
+    <h2>2. Strategic Objective</h2>
+    <ul>
+      <li>Migrate enterprise datasets to Helix platform</li>
+      <li>Improve performance, scalability, and cost efficiency</li>
+      <li>Enable standardized and governed data access</li>
+      <li>Ensure zero disruption to business reporting systems</li>
+    </ul>
+
+    <h2>3. Leadership Role</h2>
+    <ul>
+      <li>Defined migration strategy and phased execution plan</li>
+      <li>Aligned engineering, CCOE, BI, and governance stakeholders</li>
+      <li>Coordinated vendor participation and delivery dependencies</li>
+      <li>Managed risk, cutover planning, and validation cycles</li>
+    </ul>
+
+    <h2>4. Solution Architecture</h2>
+
+    <h3>🧱 Migration Framework</h3>
+    <ul>
+      <li>Phased dataset migration based on business criticality</li>
+      <li>Parallel run strategy across legacy and Helix systems</li>
+      <li>Dependency mapping across pipelines and dashboards</li>
+    </ul>
+
+    <h3>⚙️ Optimization Layer</h3>
+    <ul>
+      <li>Reduced redundant data pipelines</li>
+      <li>Improved query performance and execution speed</li>
+      <li>Standardized data structures for scalability</li>
+    </ul>
+
+    <h3>🔁 Continuity Layer</h3>
+    <ul>
+      <li>Ensured zero disruption to business reporting</li>
+      <li>Built validation and reconciliation mechanisms</li>
+      <li>Implemented rollback readiness for risk mitigation</li>
+    </ul>
+
+    <h2>5. Operational Complexity</h2>
+
+    <h3>🤝 Cross-Functional Alignment</h3>
+    <ul>
+      <li>Onboarding CCOE team for governance and compliance alignment</li>
+      <li>Coordinating Tableau Admin team for dashboard continuity</li>
+      <li>Aligning multiple engineering platform teams on dependencies</li>
+    </ul>
+
+    <h3>🔌 Vendor Ecosystem Management</h3>
+    <ul>
+      <li>Managed external vendor dependencies and delivery timelines</li>
+      <li>Resolved ownership gaps between internal and vendor teams</li>
+      <li>Ensured clarity in execution responsibilities</li>
+    </ul>
+
+    <h3>⚖️ Governance & Change Management</h3>
+    <ul>
+      <li>Navigated enterprise data governance approvals</li>
+      <li>Managed stakeholder concerns around migration risk</li>
+      <li>Maintained alignment across shifting priorities</li>
+    </ul>
+
+    <h2>6. Business Impact</h2>
+    <ul>
+      <li>Improved data platform performance and reliability</li>
+      <li>Reduced operational inefficiencies and technical debt</li>
+      <li>Lowered infrastructure and maintenance costs</li>
+      <li>Enabled scalable foundation for AI and analytics</li>
+    </ul>
+
+    <h2>7. Strategic Significance</h2>
+    <p>
+      This initiative modernized the enterprise data foundation,
+      enabling future AI and analytics capabilities while improving
+      operational efficiency across the organization.
+    </p>
+
+    <h2>8. Key Learnings</h2>
+    <ul>
+      <li>Data migration is an enterprise transformation, not a technical task</li>
+      <li>Cross-team alignment determines success more than tooling</li>
+      <li>Vendor + internal coordination is critical in complex ecosystems</li>
+      <li>Change management is central to platform adoption</li>
+    </ul>
+
+    <hr/>
+
+    <h2>🔚 Final Reflection</h2>
+    <p>
+      The Helix migration strengthened the enterprise data backbone by modernizing legacy systems
+      while ensuring business continuity, governance alignment, and long-term scalability.
+    </p>
+  `;
+}
 
   if (project === "publicsectorai") {
   content = `
